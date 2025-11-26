@@ -1,0 +1,10 @@
+                      dim_vendor
+                          |
+                          |
+dim_time ---->  fact_trips  <---- dim_rate
+                          |
+                          |
+                    dim_payment
+                          |
+                          |
+                    dim_location (pickup + dropoff)
